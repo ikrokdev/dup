@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package DataLoaders;
+
+// The gRPC service definition for processing YouTube videos and playlists
+service YouTubeProcessor {
+  // Processes a single YouTube video
+  rpc ProcessVideo(ProcessVideoRequest) returns (ProcessVideoResponse);
+
+  // Processes a YouTube playlist with server streaming
+  rpc ProcessVideoPlaylist(ProcessVideoPlaylistRequest) returns (stream ProcessVideoPlaylistResponse);
+}
+
+// Request message for processing a single YouTube video
+message ProcessVideoRequest {
+  string file_url = 1;
+}
+
+// Response message for processing a single YouTube video
+message ProcessVideoResponse {
+  string video_id = 1;         // ID of the processed video
+  string video_title = 2;      // Title of the processed video
+  string processing_time = 3;  // Time taken to process the video, as metadata
+}
+
+// Request message for processing a YouTube playlist
+message ProcessVideoPlaylistRequest {
+  string playlist_url = 1;
+}
+
+// Response message for processing a YouTube playlist
+// This message is streamed for each video in the playlist
+message ProcessVideoPlaylistResponse {
+  string last_processed_video_id = 1;      // ID of the last processed video
+  int32 total_videos = 2;                  // Total number of videos in the playlist
+  int32 processed_videos_count = 3;        // Count of videos processed so far
+  string total_duration = 4;               // Total duration of processed videos
+  string expected_time_to_finish = 5;      // Auto-calculated expected time to finish processing the playlist
+}

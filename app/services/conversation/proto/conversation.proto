@@ -1,0 +1,76 @@
+syntax = "proto3";
+
+package conversation;
+
+message StartConversationRequest {
+  // Add any request fields if needed
+}
+
+message StartConversationResponse {
+  string timer = 1;
+}
+
+// Define a message for a Word
+message Word {
+  string word = 1;
+  float score = 2;
+  double start = 3;
+  double end = 4;
+}
+
+// Define a message for a Sentence
+message Sentence {
+  string sentence_id = 1;
+  string speaker_id = 2;
+  string text = 3;
+  float sentiment_score = 4;
+  repeated Word words = 5;
+  double start = 6;
+  double end = 7;
+}
+
+// Define a message for a Topic
+message Topic {
+  string topic_id = 1;
+  string name = 2;
+  float relevance = 3;
+}
+
+// Define a message for a Turn
+message Turn {
+  string turn_id = 1;
+  string speaker_id = 2;
+  string text = 3;
+  repeated Sentence sentences = 4;
+  repeated Word words = 5;
+  repeated Topic topics = 6;
+  double start = 7;
+  double end = 8;
+}
+
+// The request message containing the turn ID and the flag to include words.
+message GetTurnRequest {
+  string turn_id = 1;
+  bool include_words = 2;
+}
+
+// The request message for getting the entire conversation.
+message GetConversationRequest {
+  bool include_words = 1;
+}
+
+// The response message containing the details of a conversation.
+message Conversation {
+  repeated Turn turns = 1;
+  repeated Topic topics = 2;
+}
+
+// The service definition.
+service ConversationService {
+  // Get Turn
+  rpc GetTurn(GetTurnRequest) returns (Turn);
+  // Get conversation
+  rpc GetConversation(GetConversationRequest) returns (Conversation);
+  // StartConversation initiates a conversation and sends periodic updates.
+  rpc StartConversation(StartConversationRequest) returns (stream StartConversationResponse);
+}

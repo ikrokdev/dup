@@ -1,0 +1,65 @@
+start,end,text,avg_logprob,track,label
+0.0,5.5200000000000005, are most critical debates where did COVID come from? Should we be involved in the war in Ukraine?,-0.1451463214421676,---,
+5.5200000000000005,10.72, What happened with January 6th was the FBI involved? All of these debates that we ought to be,-0.1451463214421676,A,SPEAKER_00
+10.72,16.88," having in a very vibrant way are instead being closed off in favor of establishment parties,",-0.1451463214421676,A,SPEAKER_00
+16.88,19.52, and I don't regard anything as more dangerous than that.,-0.1451463214421676,A,SPEAKER_00
+20.8,25.12," Glenn Greenwald founded a law firm in 1996, where he focused on First Amendment cases.",-0.1451463214421676,---,SPEAKER_00
+25.12,28.8," But after the September 11th attacks and the actions by the Bush administration that followed,",-0.1451463214421676,B,SPEAKER_01
+28.8,32.8," he began to write, accusing the federal government of violating Americans' civil liberties.",-0.1220361490165237,B,SPEAKER_01
+33.36,36.96," His work caught the attention of Edward Snowden, who provided Glenn and his team a plethora",-0.1220361490165237,---,SPEAKER_01
+36.96,41.760000000000005, of classified documents from the National Security Agency. The UK Guardian published Glenn's,-0.1220361490165237,---,SPEAKER_01
+41.760000000000005,45.52," reporting on this leak, which revealed the NSA was secretly gathering information on American",-0.1220361490165237,D,SPEAKER_01
+45.52,50.32, citizens. The work resulted in a journalism bullet surprise for public service in 2014.,-0.1220361490165237,---,SPEAKER_01
+51.52,54.96," 10 years after the report, I asked Glenn what the reputation of our three letter government",-0.1220361490165237,---,SPEAKER_01
+55.84,60.72," and Edward Snowden are like today. After massive success with the Snowden leaks, Glenn",-0.2274409038264577,---,SPEAKER_01
+60.72,64.72," co-founded the news organization The Intercept, the journalist Jeremy Shehal and filmmaker",-0.2274409038264577,G,SPEAKER_01
+64.72,68.72," Luya Portres, who made the Academy Award-winning documentary Citizen 4, which told the story of",-0.2274409038264577,G,SPEAKER_01
+68.72,72.64, the journalist who worked with Snowden. The Intercept's mission was to hold the most powerful,-0.2274409038264577,---,SPEAKER_01
+72.64,77.84," government's incorporations accountable, but in 2020, Portres was terminated, and Greenwald",-0.2274409038264577,---,SPEAKER_01
+77.84,82.08, resigned after leadership attempted to censor his work. The news organization they created,-0.2274409038264577,---,SPEAKER_01
+82.08,86.24, had turned its back on their original vision. Glenn has since gone full-time with his,-0.1675495147705078,---,SPEAKER_01
+86.24,90.32," sub-stack newsletter, a growing trend for journalists, and a nightly news program called System",-0.1675495147705078,K,SPEAKER_01
+90.32,95.44," Update, live exclusively unrumbled. In this episode, we analyze the state of honest journalism.",-0.1675495147705078,---,SPEAKER_01
+95.44,99.36," Plus, we'll discuss Brazil's political climate, something Glenn has done in-depth reporting on,",-0.1675495147705078,L,SPEAKER_01
+99.36,102.4," and we'll discuss a key area of debate between us over the years,",-0.1675495147705078,L,SPEAKER_01
+102.48,104.56, US Foreign Policy and American Interventionism.,-0.2131469288810354,L,SPEAKER_01
+114.0,116.72," Hey, hey, and welcome. This is The Ben Shapiro Show's Sunday Special, just",-0.2131469288810354,---,SPEAKER_01
+116.72,120.48," reminder, some of our conversation at the end will be exclusively for our Daily Wire Plus",-0.2131469288810354,M,SPEAKER_01
+120.48,123.84," members. If you're not a member yet, click the link at the top of this episode's description",-0.2131469288810354,M,SPEAKER_01
+123.84,127.6," get the full conversation with Glenn and Greenwald, and with every one of our awesome guest Glenn.",-0.2131469288810354,M,SPEAKER_01
+127.6,131.36," Thanks so much for joining the show. Yeah, happy to be here, Ben. Thanks for inviting me.",-0.2131469288810354,M,SPEAKER_01
+131.36,134.88000000000002, So obviously it is super weird that we are sitting together since you and I have sparred a few,-0.1301164482579087,M,SPEAKER_01
+134.88000000000002,138.24," times, I think, on social media, probably not just a few, probably over to the course of the past",-0.1301164482579087,M,SPEAKER_01
+138.24,143.04000000000002," decade. We have called each other out more than a few times, but one of the things that I think",-0.1301164482579087,---,SPEAKER_01
+143.04000000000002,148.72000000000003, has happened that's really fascinating about the current trajectory of our politics is this movement,-0.1301164482579087,N,SPEAKER_01
+148.72000000000003,153.68, on the right myself included to move away from a lot of trust in institutions. There is a piece,-0.1301164482579087,N,SPEAKER_01
+153.68,159.68, recently at tablet magazine by Alana Goodman talking about the kind of divisions that have,-0.1301164482579087,N,SPEAKER_01
+159.68,163.68, emerged in politics that are cross-cutting between people who look at the institutions and see,-0.0848542299026098,N,SPEAKER_01
+163.68,167.52, them as fundamentally corrupt and people who wish to sort of preserve and correct the institutions.,-0.0848542299026098,N,SPEAKER_01
+167.52,171.84, And I find myself kind of more and more right on the line between the people who wish to blow up,-0.0848542299026098,N,SPEAKER_01
+171.84,175.92000000000002, the institutions and the people who believe that some of them are still correctable. But one of the,-0.0848542299026098,N,SPEAKER_01
+175.92000000000002,180.32, things that's been obvious over the course of the past couple of decades is that many of the critiques,-0.0848542299026098,N,SPEAKER_01
+180.32,183.92, that you were making two decades ago about the fundamental corruption of many of our institutions,-0.0848542299026098,N,SPEAKER_01
+183.92,189.36," has now become obvious to a lot of people. So why don't we start there? You know, why do you think it is",-0.0848542299026098,N,SPEAKER_01
+189.36,194.0," that it's become so clear now? I mean, it's obviously clear to you before. Why do things become",-0.1634848348556026,N,SPEAKER_01
+194.0,198.08," clear now over the course of the past few years that so many of our institutions, the media,",-0.1634848348556026,N,SPEAKER_01
+198.08,201.04, the national security apparatus are fundamentally corrupt?,-0.1634848348556026,N,SPEAKER_01
+201.04,206.64," I mean, it's a really interesting question. I've obviously spent a long time thinking about that.",-0.1634848348556026,---,SPEAKER_01
+206.64,212.32," One of the things I think happens is that in a given moment, those institutions can be wielded",-0.1634848348556026,O,SPEAKER_00
+212.32,217.92," in favor of someone's particular political agenda. So there have been times, for example,",-0.1634848348556026,O,SPEAKER_00
+218.0,222.72, the corporate media over the past 20 years has been more favorable to one side than the other.,-0.0961825421878269,O,SPEAKER_00
+222.72,227.44, There have been times that the security state has been more favorable to one side than the other.,-0.0961825421878269,O,SPEAKER_00
+227.44,233.04," And I think in those moments, it's easy to think that those institutions are benign and benevolent",-0.0961825421878269,O,SPEAKER_00
+233.04,239.04," and things you can and should trust and want to fortify. At some point, though, they turn not",-0.0961825421878269,O,SPEAKER_00
+239.04,245.36," against everybody as long as you're embracing establishment parties, they're going to be your allies.",-0.0961825421878269,O,SPEAKER_00
+245.36,249.76," But the minute that you question establishment parties, which most people end up doing,",-0.1286111231203432,O,SPEAKER_00
+249.76,255.28," thankfully, it's part of adulthood, the more you're able to see that they're there to essentially",-0.1286111231203432,O,SPEAKER_00
+255.84,260.24, prevent that kind of dissent. And I think people's eyes start opening a major change.,-0.1286111231203432,O,SPEAKER_00
+260.24,266.8," For example, with the CIA and the FBI, where the very visible abuses they perpetrated by interfering",-0.1286111231203432,O,SPEAKER_00
+266.8,271.36," in our domestic politics and the name of sabotaging, not just the Trump campaign, but the Trump",-0.1286111231203432,O,SPEAKER_00
+271.36,276.16," presidency. Even when he was their commander in chief, they were clearly acting against him",-0.1305723608585826,O,SPEAKER_00
+276.16,282.16, in all sorts of ways. And I think that opened a lot of a space toward skepticism of those agencies,-0.1305723608585826,O,SPEAKER_00
+282.16,288.56," that previously didn't exist. And that's happened across the board. So Glenn, I talked about my evolution",-0.1305723608585826,---,SPEAKER_00
+288.56,293.44," in terms of viewing some of these institutions. And as you say, there was a fundamental belief on",-0.1305723608585826,P,SPEAKER_01
+293.44,298.24," people on my side of the political aisle that the FBI, the CIA, that yeah, these institutions could",-0.1305723608585826,P,SPEAKER_01
+298.24,299.84000000000003," be overbearing, yes, these institutions.",-0.4704770308274489,P,SPEAKER_01

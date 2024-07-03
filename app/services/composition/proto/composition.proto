@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package composition;
+
+// The composition service definition.
+service CompositionService {
+  // Request to get a specific composition by user and composition ID
+  rpc GetComposition (GetCompositionRequest) returns (GetCompositionResponse);
+}
+
+// The request message containing the user's name and composition ID.
+message GetCompositionRequest {
+  string username = 1;
+  string composition_id = 2;
+}
+
+// The response message containing the composition.
+message GetCompositionResponse {
+  Composition composition = 1;
+}
+
+// Composition message, representing the composition details.
+message Composition {
+  repeated CompositionItem items = 1;
+  FileMetadata metadata = 100;
+}
+
+// Video message, representing each video in the composition.
+message CompositionItem {
+  string id = 1;
+  string source_path = 2;
+  string title = 3;
+  string duration = 4;
+  string description = 5;
+
+  FileMetadata metadata = 100;
+}
+
+message YTMetadata{
+  string video_id = 1;
+  string channel_id = 2;
+  string upload_date = 3;
+  string view_count = 4;
+  string description = 5;
+}
+
+// Metadata about the ls.csv file.
+message FileMetadata {
+  string created_at = 1;
+  string filepath = 2;
+  string title = 3;
+}

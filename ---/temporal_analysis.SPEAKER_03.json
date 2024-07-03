@@ -1,0 +1,18 @@
+{
+    "Speaker Analysis": {
+        "Frequency": 3,
+        "Total Duration": 5.244999999999998,
+        "Interruptions Caused": 0
+    },
+    "Temporal Analysis": {
+        "Total Duration": 5.244999999999998,
+        "Segment Durations": [
+            0.21999999999999975,
+            1.9619999999999997,
+            3.062999999999999
+        ],
+        "Average Duration": 1.7483333333333329,
+        "Max Duration": 3.062999999999999,
+        "Min Duration": 0.21999999999999975
+    }
+}
